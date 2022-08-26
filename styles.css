@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-section
+{
+    width:100%;
+    height:100vh;
+    background-image:url(/imagesVideos/netflix.jpg);
+    box-shadow: inset 0 3rem 20rem 4rem rgb(0, 0, 0);
+}
+
+.trans-bg
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    width:100%;
+    height:100vh;
+}
+
+.header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:-0.3rem 3rem 0 3rem; 
+}
+
+.logo img
+{
+    width:10.5rem;
+    height:5.95rem;
+    transform: translate(-2%);
+}
+
+.language
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:0.5rem 0rem 0.5rem 0.7rem;
+    margin:0 2rem 0 0;
+}
+
+.language p
+{
+    display:inline;
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+
+.sign-in
+{
+    display: inline-block;
+    width:5.55rem;
+    height:2.25rem;
+    background-color: rgb(229, 9, 20);
+    border:none;
+    color:white;
+    border-radius: 3px;
+    font-size:1rem;
+    font-family:'Poppins',sans-serif;
+    padding:0.3rem 1rem;
+    cursor:pointer;
+}
+
+.contain-last
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content
+{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 0 0;
+    /* transform:translate(0,-10%) ; */
+}
+
+.header-content
+{
+    width:35rem;
+    color:rgb(255, 255, 255);
+    font-size: 2.9rem;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+
+.sub-title
+{
+    width:35rem;
+    color:white;
+    font-size: 1.4rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.tagline
+{
+    color:white;
+    font-size: 1.1rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: lighter;
+}
+
+.email
+{
+    width:30rem;
+    height: 4rem;
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 2px rgb(156, 154, 154);
+    font-weight: lighter;
+    outline:none;
+    border: 1px solid rgb(156, 154, 154);
+    margin:1.5rem 0 0 1.8rem;
+    padding-left: 1.3rem;
+}
+
+.email::placeholder
+{
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(156, 154, 154);
+    font-weight: lighter;
+}
+
+.email:focus::placeholder
+{
+    transform: translate(0,-1.2rem);
+    transition: transform 0.1s ease-in;
+    font-size: 0.8rem;
+    color:rgb(127, 127, 127);
+    font-weight: bolder;
+}
+
+.email-btn
+{
+    width:12rem;
+    height: 4rem;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    transform: translate(-2%,2px);
+    font-family:'Poppins',sans-serif;
+    padding: 0 1.5rem 0 0;
+    font-size:1.25rem;
+    outline:none;
+    border:none;
+    margin:1.5rem 0 0 0;
+    cursor: pointer;
+}
+
+.email-btn:hover{
+    background-color: rgb(251, 7, 19);
+}
+
+.material-symbols-outlined {
+    transform: translate(-205%,30%);
+    color:white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.globe 
+{
+    transform: translate(2%,-5%);
+    padding: 0.2rem;
+}
+
+.drop
+{
+    transform:translate(-20%,0);
+}
